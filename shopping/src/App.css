@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-body{
+    position: relative;
+}
+
+.nav .text-muted .bi{
+    font-size: 25px;
+}
+
+.price{
+    position: absolute;
+    right: 15px;
+    bottom: 60px;
+}
+
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+.madal_sing_up{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_sing_up{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    background-color: rgb(225, 222, 222);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.form_sing_up input{
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    outline: none;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.form_sing_up button{
+    width: 100%;
+}
